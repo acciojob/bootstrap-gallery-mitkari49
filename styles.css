@@ -1,9 +1,17 @@
- h6, p {
-            text-align: center;
-        }
-        .card {
-            border-radius: 10px;
-        }
-        .card-img-top {
-            border-radius: 10px 10px 0 0;
-        }
+ h6,
+    p {
+      text-align: center;
+    }
+
+    .card {
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card-img-top {
+      border-radius: 10px 10px 0 0;
+    }
